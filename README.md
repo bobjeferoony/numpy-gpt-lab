@@ -2,6 +2,14 @@
 
 A small GPT-style transformer built and trained from scratch with **NumPy only for model mathematics**, plus a local Python-debugging app. This is an educational project for understanding transformers, backpropagation and the limits of small training datasets.
 
+## Read the in-depth explanation
+
+**[Mathematical reasoning and full derivations](MATHEMATICAL_REASONING.md)** — rendered equations explaining the model's objective, embeddings, attention, softmax, loss, backpropagation, AdamW, parameter count, feedback loops and generalization, with worked examples and links to the actual NumPy implementation.
+
+**[Complete technical book: approximately 15,000 words](TECHNICAL_GUIDE.md)** — architecture, maths, reasoning, data design, experiments, failure analysis, training operations, version history and the proposed generator/checker system. You can also [read its 11 chapters individually](docs/00-INDEX.md).
+
+For focused reading: [architecture and tensor shapes](docs/02-ARCHITECTURE.md), [gradient derivations](docs/03-MATHS.md), [training logic](docs/04-TRAINING.md), and [checker/feedback design](docs/06-FEEDBACK-DESIGN.md).
+
 **Contributions are welcome.** The project code, original exercises, documentation and project-generated weights are offered under the [MIT license](LICENSE). Bundled Python standard-library corpus material retains its original licensing; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 ## What works

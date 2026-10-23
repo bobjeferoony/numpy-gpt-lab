@@ -1,5 +1,7 @@
 # Technical book: a GPT debugger from first principles
 
+For a self-contained companion with rendered equations and a direct code map, read [Mathematical reasoning and derivations](../MATHEMATICAL_REASONING.md). The [combined book](../TECHNICAL_GUIDE.md) contains every chapter below.
+
 This book describes the source captured on 23 October 2026, the earlier surviving versions, and the reasoning developed during the project. The equations are derived here against our implementation. The linked primary papers provide background; their published systems and results are not claims about this small model.
 
 ## Reading order
