@@ -36,7 +36,7 @@ We minimize the negative log probability of reference answers:
 
 $$
 -\log p_\theta(y\mid x)
-=-\sum_{t=1}^{A}\log p_\theta(y_t\mid x,y_{<t}).
+=-\sum_{t=1}^{A}\log p_\theta(y_t\mid x,y_{1:t-1}).
 $$
 
 The logarithm turns a product into a sum, making a long-sequence objective manageable. It also means confidently assigning very little probability to the correct byte is penalized heavily.
@@ -81,7 +81,7 @@ $$
 $$
 \widehat{u}_i=\frac{u_i-\mu}{\sqrt{\sigma^2+\epsilon}},
 \qquad
-\operatorname{LN}(u)_i=\gamma_i\widehat{u}_i+\beta_i.
+\mathrm{LN}(u)_i=\gamma_i\widehat{u}_i+\beta_i.
 $$
 
 Here $\epsilon=10^{-5}$, and $\gamma,\beta$ are learned. The normalization is per token across features, not a batch mean. It regulates the scale presented to a sublayer, while retaining relative feature differences and allowing learned affine adjustment.
@@ -90,7 +90,7 @@ Our transformer uses pre-normalization: normalize before attention/feed-forward,
 
 ### 3.2 Queries, keys and values
 
-For normalized hidden states $U=\operatorname{LN}_1(X)$:
+For normalized hidden states $U=\mathrm{LN}_1(X)$:
 
 $$
 [Q\mid K\mid R]=UW_{\mathrm{qkv}}+b_{\mathrm{qkv}}.
@@ -131,7 +131,7 @@ $$
 Each attention row sums to one. Different heads learn different projections and weighted mixtures. Their outputs are concatenated, projected and added to the residual stream:
 
 $$
-X'=X+\operatorname{Concat}(O_1,\ldots,O_H)W_o+b_o.
+X'=X+\mathrm{Concat}(O_1,\ldots,O_H)W_o+b_o.
 $$
 
 This is numerical feature mixing. It is not a vote over complete repairs or a correctness test.
@@ -139,7 +139,7 @@ This is numerical feature mixing. It is not a vote over complete repairs or a co
 ### 3.5 Feed-forward transformation and residuals
 
 $$
-F=\operatorname{ReLU}\!\left(\operatorname{LN}_2(X')W_{\mathrm{up}}+b_{\mathrm{up}}\right),
+F=\mathrm{ReLU}\left(\mathrm{LN}_2(X')W_{\mathrm{up}}+b_{\mathrm{up}}\right),
 $$
 
 $$
@@ -153,7 +153,7 @@ Residual addition offers an identity path around each learned sublayer. Its deri
 After $L$ blocks, the output scores are:
 
 $$
-\ell=\operatorname{LN}_{\mathrm{final}}(X_L)W_{\mathrm{out}},
+\ell=\mathrm{LN}_{\mathrm{final}}(X_L)W_{\mathrm{out}},
 \qquad
 W_{\mathrm{out}}\in\mathbb{R}^{C\times V}.
 $$
@@ -331,8 +331,8 @@ Define centered input $u=x-\mu$, inverse standard deviation $r=(\sigma^2+\epsilo
 
 $$
 \boxed{\overline x
-=r\left(g-\operatorname{mean}(g)
--h\,\operatorname{mean}(g\odot h)\right).}
+=r\left(g-\mathrm{mean}(g)
+-h\cdot \mathrm{mean}(g\odot h)\right).}
 $$
 
 The first term is direct scaling. The second subtracts the shared-mean contribution. The third corrects for variance changing when the input changes. Treating the mean and variance as constants would give the wrong derivative.
@@ -530,7 +530,7 @@ $$
 The observed partial pretraining run reached about 2.4919 nats per scored validation byte by step 400. That corresponds to byte perplexity:
 
 $$
-\operatorname{PPL}=\exp(\mathcal L)\approx12.1.
+\mathrm{PPL}=\exp(\mathcal L)\approx12.1.
 $$
 
 This is evidence of improved byte modeling on the chosen validation windows. It is not a repair-accuracy percentage and does not establish that a particular bug can be fixed.
@@ -542,7 +542,7 @@ The app's parse check establishes grammatical shape only. Exact reference matchi
 For independent binary task outcomes with success probability $p$, an estimated success rate based on $n$ tasks has approximate standard error:
 
 $$
-\operatorname{SE}\approx\sqrt{\frac{p(1-p)}n}.
+\mathrm{SE}\approx\sqrt{\frac{p(1-p)}n}.
 $$
 
 At $p=0.5,n=20$, this is about 0.112. Correlated mutations make the effective sample size smaller than a naive row count suggests. For small samples or extreme rates, report an appropriate interval rather than relying only on this normal approximation.
