@@ -1,0 +1,128 @@
+[
+  {
+    "path": "advanced-smoke.npz",
+    "config": [
+      16,
+      384,
+      4,
+      1,
+      42
+    ],
+    "step": 4,
+    "parameters": 17680,
+    "optimizer_state": true,
+    "all_parameters_finite": true
+  },
+  {
+    "path": "advanced.npz",
+    "config": [
+      64,
+      384,
+      4,
+      3,
+      42
+    ],
+    "step": 5000,
+    "parameters": 207552,
+    "optimizer_state": true,
+    "all_parameters_finite": true
+  },
+  {
+    "path": "distinct-large.npz",
+    "config": [
+      128,
+      384,
+      4,
+      5,
+      42
+    ],
+    "step": 5000,
+    "parameters": 1106560,
+    "optimizer_state": true,
+    "all_parameters_finite": true
+  },
+  {
+    "path": "large.npz",
+    "config": [
+      128,
+      384,
+      4,
+      5,
+      42
+    ],
+    "step": 5000,
+    "parameters": 1106560,
+    "optimizer_state": true,
+    "all_parameters_finite": true
+  },
+  {
+    "path": "model.npz",
+    "config": [
+      48,
+      192,
+      4,
+      2,
+      42
+    ],
+    "step": null,
+    "parameters": 90528,
+    "optimizer_state": false,
+    "all_parameters_finite": true
+  },
+  {
+    "path": "python-base.best.npz",
+    "config": [
+      128,
+      384,
+      4,
+      5,
+      42
+    ],
+    "step": 400,
+    "parameters": 1106560,
+    "optimizer_state": true,
+    "all_parameters_finite": true
+  },
+  {
+    "path": "python-base.last.npz",
+    "config": [
+      128,
+      384,
+      4,
+      5,
+      42
+    ],
+    "step": 422,
+    "parameters": 1106560,
+    "optimizer_state": true,
+    "all_parameters_finite": true
+  },
+  {
+    "path": "python-base.npz",
+    "config": [
+      128,
+      384,
+      4,
+      5,
+      42
+    ],
+    "step": null,
+    "parameters": 1106560,
+    "optimizer_state": false,
+    "all_parameters_finite": true
+  },
+  {
+    "path": "smoke.npz",
+    "config": [
+      16,
+      192,
+      4,
+      1,
+      42
+    ],
+    "step": null,
+    "parameters": 14608,
+    "optimizer_state": false,
+    "all_parameters_finite": true
+  }
+]
