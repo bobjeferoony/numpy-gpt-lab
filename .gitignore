@@ -1,0 +1,15 @@
+.venv/
+.venv-win/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+# Regenerated local provenance/experiments are reviewed before deliberate publication.
+local-data/
+*.run.json
+.env
+.env.*
+*.pem
+*.key
