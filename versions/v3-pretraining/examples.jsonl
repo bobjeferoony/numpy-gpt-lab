@@ -1,0 +1,16 @@
+{"buggy":"def add(a, b):\n    return a - b","fixed":"def add(a, b):\n    return a + b"}
+{"buggy":"def multiply(a, b):\n    return a + b","fixed":"def multiply(a, b):\n    return a * b"}
+{"buggy":"def square(x):\n    return x * 2","fixed":"def square(x):\n    return x * x"}
+{"buggy":"def cube(x):\n    return x * x","fixed":"def cube(x):\n    return x * x * x"}
+{"buggy":"def first(xs):\n    return xs[1]","fixed":"def first(xs):\n    return xs[0]"}
+{"buggy":"def last(xs):\n    return xs[len(xs)]","fixed":"def last(xs):\n    return xs[-1]"}
+{"buggy":"def is_even(n):\n    return n % 2 == 1","fixed":"def is_even(n):\n    return n % 2 == 0"}
+{"buggy":"def is_odd(n):\n    return n % 2 == 0","fixed":"def is_odd(n):\n    return n % 2 == 1"}
+{"buggy":"def maximum(a, b):\n    return a if a < b else b","fixed":"def maximum(a, b):\n    return a if a > b else b"}
+{"buggy":"def minimum(a, b):\n    return a if a > b else b","fixed":"def minimum(a, b):\n    return a if a < b else b"}
+{"buggy":"def contains(xs, x):\n    return x not in xs","fixed":"def contains(xs, x):\n    return x in xs"}
+{"buggy":"def empty(xs):\n    return len(xs) > 0","fixed":"def empty(xs):\n    return len(xs) == 0"}
+{"buggy":"def reverse(xs):\n    return xs[::1]","fixed":"def reverse(xs):\n    return xs[::-1]"}
+{"buggy":"def positive(n):\n    return n < 0","fixed":"def positive(n):\n    return n > 0"}
+{"buggy":"def average(xs):\n    return sum(xs)","fixed":"def average(xs):\n    return sum(xs) / len(xs)"}
+{"buggy":"def absolute(n):\n    return -n if n > 0 else n","fixed":"def absolute(n):\n    return -n if n < 0 else n"}

@@ -1,0 +1,8 @@
+{
+  "corpus_files": 560,
+  "training_bytes": 8846516,
+  "validation_bytes": 1008619,
+  "verified_bug_pairs": 162,
+  "original_tasks": 100,
+  "note": "Mutations are related examples, not independent tasks. No pretrained weights or remote downloads."
+}
