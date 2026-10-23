@@ -1,0 +1,640 @@
+{"buggy": "def reverse_12(xs):\n    return xs[::1]", "fixed": "def reverse_12(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def contains_22(xs, n):\n    return n not in xs", "fixed": "def contains_22(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def even_19(n):\n    return n % 2 == 1", "fixed": "def even_19(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def maximum_5(a, b):\n    return a if a < b else b", "fixed": "def maximum_5(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def minimum_37(a, b):\n    return a if a > b else b", "fixed": "def minimum_37(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def positive_13(n):\n    return n < 0", "fixed": "def positive_13(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def even_21(n):\n    return n % 2 == 1", "fixed": "def even_21(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def maximum_27(a, b):\n    return a if a < b else b", "fixed": "def maximum_27(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def last_38(xs):\n    return xs[0]", "fixed": "def last_38(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def positive_4(n):\n    return n < 0", "fixed": "def positive_4(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def maximum_34(a, b):\n    return a if a < b else b", "fixed": "def maximum_34(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def multiply_9(a, b):\n    return a + b", "fixed": "def multiply_9(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def empty_9(xs):\n    return len(xs) > 0", "fixed": "def empty_9(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def positive_33(n):\n    return n < 0", "fixed": "def positive_33(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def sum_range_22(n):\n    return sum(range(n))", "fixed": "def sum_range_22(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def reverse_2(xs):\n    return xs[::1]", "fixed": "def reverse_2(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def factorial_12(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_12(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def positive_22(n):\n    return n < 0", "fixed": "def positive_22(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def empty_22(xs):\n    return len(xs) > 0", "fixed": "def empty_22(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def odd_39(n):\n    return n % 2 == 0", "fixed": "def odd_39(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def last_12(xs):\n    return xs[0]", "fixed": "def last_12(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def empty_37(xs):\n    return len(xs) > 0", "fixed": "def empty_37(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def factorial_23(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_23(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def contains_26(xs, n):\n    return n not in xs", "fixed": "def contains_26(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def even_30(n):\n    return n % 2 == 1", "fixed": "def even_30(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def add_16(a, b):\n    return a - b", "fixed": "def add_16(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def first_16(xs):\n    return xs[1]", "fixed": "def first_16(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def maximum_7(a, b):\n    return a if a < b else b", "fixed": "def maximum_7(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def minimum_15(a, b):\n    return a if a > b else b", "fixed": "def minimum_15(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def factorial_14(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_14(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def empty_33(xs):\n    return len(xs) > 0", "fixed": "def empty_33(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def minimum_5(a, b):\n    return a if a > b else b", "fixed": "def minimum_5(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def reverse_35(xs):\n    return xs[::1]", "fixed": "def reverse_35(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def first_20(xs):\n    return xs[1]", "fixed": "def first_20(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def positive_30(n):\n    return n < 0", "fixed": "def positive_30(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def positive_6(n):\n    return n < 0", "fixed": "def positive_6(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def square_37(n):\n    return n * 2", "fixed": "def square_37(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def minimum(a, b):\n    return a if a > b else b", "fixed": "def minimum(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def add_18(a, b):\n    return a - b", "fixed": "def add_18(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def empty_18(xs):\n    return len(xs) > 0", "fixed": "def empty_18(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def odd_21(n):\n    return n % 2 == 0", "fixed": "def odd_21(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def average_1(xs):\n    return sum(xs)", "fixed": "def average_1(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def odd_26(n):\n    return n % 2 == 0", "fixed": "def odd_26(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def even_15(n):\n    return n % 2 == 1", "fixed": "def even_15(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def add_6(a, b):\n    return a - b", "fixed": "def add_6(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def maximum_37(a, b):\n    return a if a < b else b", "fixed": "def maximum_37(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def multiply_33(a, b):\n    return a + b", "fixed": "def multiply_33(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def positive_26(n):\n    return n < 0", "fixed": "def positive_26(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def first_11(xs):\n    return xs[1]", "fixed": "def first_11(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def last_7(xs):\n    return xs[0]", "fixed": "def last_7(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def sum_range_12(n):\n    return sum(range(n))", "fixed": "def sum_range_12(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def factorial_8(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_8(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def add_37(a, b):\n    return a - b", "fixed": "def add_37(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def contains_7(xs, n):\n    return n not in xs", "fixed": "def contains_7(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def contains_35(xs, n):\n    return n not in xs", "fixed": "def contains_35(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def factorial_15(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_15(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def maximum_17(a, b):\n    return a if a < b else b", "fixed": "def maximum_17(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def first_18(xs):\n    return xs[1]", "fixed": "def first_18(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def maximum_2(a, b):\n    return a if a < b else b", "fixed": "def maximum_2(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def factorial_33(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_33(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def contains_37(xs, n):\n    return n not in xs", "fixed": "def contains_37(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def sum_range_29(n):\n    return sum(range(n))", "fixed": "def sum_range_29(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def square_18(n):\n    return n * 2", "fixed": "def square_18(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def maximum_35(a, b):\n    return a if a < b else b", "fixed": "def maximum_35(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def empty_3(xs):\n    return len(xs) > 0", "fixed": "def empty_3(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def factorial_13(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_13(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def empty_2(xs):\n    return len(xs) > 0", "fixed": "def empty_2(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def contains_31(xs, n):\n    return n not in xs", "fixed": "def contains_31(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def last_39(xs):\n    return xs[0]", "fixed": "def last_39(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def last_36(xs):\n    return xs[0]", "fixed": "def last_36(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def contains_28(xs, n):\n    return n not in xs", "fixed": "def contains_28(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def multiply_22(a, b):\n    return a + b", "fixed": "def multiply_22(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def factorial_24(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_24(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def contains_11(xs, n):\n    return n not in xs", "fixed": "def contains_11(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def average_25(xs):\n    return sum(xs)", "fixed": "def average_25(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def reverse_23(xs):\n    return xs[::1]", "fixed": "def reverse_23(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def multiply_34(a, b):\n    return a + b", "fixed": "def multiply_34(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def add_39(a, b):\n    return a - b", "fixed": "def add_39(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def maximum(a, b):\n    return a if a < b else b", "fixed": "def maximum(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def factorial_5(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_5(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def empty_11(xs):\n    return len(xs) > 0", "fixed": "def empty_11(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def factorial_18(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_18(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def multiply_3(a, b):\n    return a + b", "fixed": "def multiply_3(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def square_26(n):\n    return n * 2", "fixed": "def square_26(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def even_9(n):\n    return n % 2 == 1", "fixed": "def even_9(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def minimum_39(a, b):\n    return a if a > b else b", "fixed": "def minimum_39(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def odd_14(n):\n    return n % 2 == 0", "fixed": "def odd_14(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def sum_range_2(n):\n    return sum(range(n))", "fixed": "def sum_range_2(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def first_14(xs):\n    return xs[1]", "fixed": "def first_14(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def contains_23(xs, n):\n    return n not in xs", "fixed": "def contains_23(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def last_16(xs):\n    return xs[0]", "fixed": "def last_16(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def square_11(n):\n    return n * 2", "fixed": "def square_11(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def minimum_25(a, b):\n    return a if a > b else b", "fixed": "def minimum_25(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def even_22(n):\n    return n % 2 == 1", "fixed": "def even_22(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def add_17(a, b):\n    return a - b", "fixed": "def add_17(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def factorial_21(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_21(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def contains_25(xs, n):\n    return n not in xs", "fixed": "def contains_25(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def add_4(a, b):\n    return a - b", "fixed": "def add_4(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def square_14(n):\n    return n * 2", "fixed": "def square_14(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def maximum_28(a, b):\n    return a if a < b else b", "fixed": "def maximum_28(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def positive_1(n):\n    return n < 0", "fixed": "def positive_1(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def empty_32(xs):\n    return len(xs) > 0", "fixed": "def empty_32(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def reverse_37(xs):\n    return xs[::1]", "fixed": "def reverse_37(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def add_23(a, b):\n    return a - b", "fixed": "def add_23(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def even_7(n):\n    return n % 2 == 1", "fixed": "def even_7(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def first_12(xs):\n    return xs[1]", "fixed": "def first_12(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def sum_range_37(n):\n    return sum(range(n))", "fixed": "def sum_range_37(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def sum_range_34(n):\n    return sum(range(n))", "fixed": "def sum_range_34(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def last_20(xs):\n    return xs[0]", "fixed": "def last_20(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def contains_33(xs, n):\n    return n not in xs", "fixed": "def contains_33(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def add_33(a, b):\n    return a - b", "fixed": "def add_33(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def multiply_23(a, b):\n    return a + b", "fixed": "def multiply_23(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def reverse_26(xs):\n    return xs[::1]", "fixed": "def reverse_26(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def contains_39(xs, n):\n    return n not in xs", "fixed": "def contains_39(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def last_26(xs):\n    return xs[0]", "fixed": "def last_26(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def sum_range_30(n):\n    return sum(range(n))", "fixed": "def sum_range_30(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def reverse_27(xs):\n    return xs[::1]", "fixed": "def reverse_27(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def even_37(n):\n    return n % 2 == 1", "fixed": "def even_37(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def sum_range_32(n):\n    return sum(range(n))", "fixed": "def sum_range_32(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def reverse_24(xs):\n    return xs[::1]", "fixed": "def reverse_24(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def odd_25(n):\n    return n % 2 == 0", "fixed": "def odd_25(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def square_1(n):\n    return n * 2", "fixed": "def square_1(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def minimum_8(a, b):\n    return a if a > b else b", "fixed": "def minimum_8(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def last_6(xs):\n    return xs[0]", "fixed": "def last_6(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def first_30(xs):\n    return xs[1]", "fixed": "def first_30(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def odd_13(n):\n    return n % 2 == 0", "fixed": "def odd_13(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def even(n):\n    return n % 2 == 1", "fixed": "def even(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def positive_35(n):\n    return n < 0", "fixed": "def positive_35(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def reverse_33(xs):\n    return xs[::1]", "fixed": "def reverse_33(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def average_35(xs):\n    return sum(xs)", "fixed": "def average_35(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def sum_range_35(n):\n    return sum(range(n))", "fixed": "def sum_range_35(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def contains_21(xs, n):\n    return n not in xs", "fixed": "def contains_21(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def last_3(xs):\n    return xs[0]", "fixed": "def last_3(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def even_12(n):\n    return n % 2 == 1", "fixed": "def even_12(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def square_31(n):\n    return n * 2", "fixed": "def square_31(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def first_9(xs):\n    return xs[1]", "fixed": "def first_9(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def sum_range_36(n):\n    return sum(range(n))", "fixed": "def sum_range_36(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def minimum_20(a, b):\n    return a if a > b else b", "fixed": "def minimum_20(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def empty_13(xs):\n    return len(xs) > 0", "fixed": "def empty_13(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def odd_7(n):\n    return n % 2 == 0", "fixed": "def odd_7(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def odd_28(n):\n    return n % 2 == 0", "fixed": "def odd_28(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def add_22(a, b):\n    return a - b", "fixed": "def add_22(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def average_22(xs):\n    return sum(xs)", "fixed": "def average_22(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def positive_18(n):\n    return n < 0", "fixed": "def positive_18(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def multiply_24(a, b):\n    return a + b", "fixed": "def multiply_24(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def square_20(n):\n    return n * 2", "fixed": "def square_20(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def positive_15(n):\n    return n < 0", "fixed": "def positive_15(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def first_35(xs):\n    return xs[1]", "fixed": "def first_35(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def empty_5(xs):\n    return len(xs) > 0", "fixed": "def empty_5(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def square_28(n):\n    return n * 2", "fixed": "def square_28(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def empty_30(xs):\n    return len(xs) > 0", "fixed": "def empty_30(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def first_27(xs):\n    return xs[1]", "fixed": "def first_27(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def add_25(a, b):\n    return a - b", "fixed": "def add_25(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def contains_16(xs, n):\n    return n not in xs", "fixed": "def contains_16(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def reverse_38(xs):\n    return xs[::1]", "fixed": "def reverse_38(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def even_11(n):\n    return n % 2 == 1", "fixed": "def even_11(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def minimum_30(a, b):\n    return a if a > b else b", "fixed": "def minimum_30(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def last_8(xs):\n    return xs[0]", "fixed": "def last_8(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def add_35(a, b):\n    return a - b", "fixed": "def add_35(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def first_32(xs):\n    return xs[1]", "fixed": "def first_32(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def reverse_32(xs):\n    return xs[::1]", "fixed": "def reverse_32(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def reverse_30(xs):\n    return xs[::1]", "fixed": "def reverse_30(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def empty_25(xs):\n    return len(xs) > 0", "fixed": "def empty_25(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def first_28(xs):\n    return xs[1]", "fixed": "def first_28(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def empty_31(xs):\n    return len(xs) > 0", "fixed": "def empty_31(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def odd_15(n):\n    return n % 2 == 0", "fixed": "def odd_15(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def minimum_11(a, b):\n    return a if a > b else b", "fixed": "def minimum_11(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def add_8(a, b):\n    return a - b", "fixed": "def add_8(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def reverse_17(xs):\n    return xs[::1]", "fixed": "def reverse_17(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def first_17(xs):\n    return xs[1]", "fixed": "def first_17(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def maximum_33(a, b):\n    return a if a < b else b", "fixed": "def maximum_33(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def first_10(xs):\n    return xs[1]", "fixed": "def first_10(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def reverse_4(xs):\n    return xs[::1]", "fixed": "def reverse_4(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def positive_20(n):\n    return n < 0", "fixed": "def positive_20(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def positive_19(n):\n    return n < 0", "fixed": "def positive_19(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def factorial_17(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_17(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def add_21(a, b):\n    return a - b", "fixed": "def add_21(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def minimum_38(a, b):\n    return a if a > b else b", "fixed": "def minimum_38(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def square_13(n):\n    return n * 2", "fixed": "def square_13(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def multiply_4(a, b):\n    return a + b", "fixed": "def multiply_4(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def reverse_8(xs):\n    return xs[::1]", "fixed": "def reverse_8(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def multiply_36(a, b):\n    return a + b", "fixed": "def multiply_36(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def positive_10(n):\n    return n < 0", "fixed": "def positive_10(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def sum_range_18(n):\n    return sum(range(n))", "fixed": "def sum_range_18(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def odd(n):\n    return n % 2 == 0", "fixed": "def odd(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def average_31(xs):\n    return sum(xs)", "fixed": "def average_31(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def multiply_27(a, b):\n    return a + b", "fixed": "def multiply_27(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def maximum_39(a, b):\n    return a if a < b else b", "fixed": "def maximum_39(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def sum_range_16(n):\n    return sum(range(n))", "fixed": "def sum_range_16(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def minimum_4(a, b):\n    return a if a > b else b", "fixed": "def minimum_4(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def even_35(n):\n    return n % 2 == 1", "fixed": "def even_35(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def minimum_26(a, b):\n    return a if a > b else b", "fixed": "def minimum_26(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def add_36(a, b):\n    return a - b", "fixed": "def add_36(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def reverse_19(xs):\n    return xs[::1]", "fixed": "def reverse_19(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def square_38(n):\n    return n * 2", "fixed": "def square_38(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def add_9(a, b):\n    return a - b", "fixed": "def add_9(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def even_18(n):\n    return n % 2 == 1", "fixed": "def even_18(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def even_1(n):\n    return n % 2 == 1", "fixed": "def even_1(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def reverse_11(xs):\n    return xs[::1]", "fixed": "def reverse_11(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def average_17(xs):\n    return sum(xs)", "fixed": "def average_17(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def square_12(n):\n    return n * 2", "fixed": "def square_12(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def reverse_28(xs):\n    return xs[::1]", "fixed": "def reverse_28(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def add(a, b):\n    return a - b", "fixed": "def add(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def average_12(xs):\n    return sum(xs)", "fixed": "def average_12(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def last_25(xs):\n    return xs[0]", "fixed": "def last_25(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def sum_range_5(n):\n    return sum(range(n))", "fixed": "def sum_range_5(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def square_10(n):\n    return n * 2", "fixed": "def square_10(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def odd_11(n):\n    return n % 2 == 0", "fixed": "def odd_11(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def sum_range_20(n):\n    return sum(range(n))", "fixed": "def sum_range_20(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def factorial_39(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_39(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def square_7(n):\n    return n * 2", "fixed": "def square_7(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def first_38(xs):\n    return xs[1]", "fixed": "def first_38(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def maximum_32(a, b):\n    return a if a < b else b", "fixed": "def maximum_32(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def odd_5(n):\n    return n % 2 == 0", "fixed": "def odd_5(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def minimum_35(a, b):\n    return a if a > b else b", "fixed": "def minimum_35(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def last_10(xs):\n    return xs[0]", "fixed": "def last_10(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def odd_22(n):\n    return n % 2 == 0", "fixed": "def odd_22(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def odd_16(n):\n    return n % 2 == 0", "fixed": "def odd_16(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def sum_range_23(n):\n    return sum(range(n))", "fixed": "def sum_range_23(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def reverse_14(xs):\n    return xs[::1]", "fixed": "def reverse_14(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def minimum_21(a, b):\n    return a if a > b else b", "fixed": "def minimum_21(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def last_11(xs):\n    return xs[0]", "fixed": "def last_11(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def even_27(n):\n    return n % 2 == 1", "fixed": "def even_27(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def multiply_2(a, b):\n    return a + b", "fixed": "def multiply_2(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def average_19(xs):\n    return sum(xs)", "fixed": "def average_19(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def contains_15(xs, n):\n    return n not in xs", "fixed": "def contains_15(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def empty_17(xs):\n    return len(xs) > 0", "fixed": "def empty_17(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def empty_23(xs):\n    return len(xs) > 0", "fixed": "def empty_23(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def square(n):\n    return n * 2", "fixed": "def square(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def last_30(xs):\n    return xs[0]", "fixed": "def last_30(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def multiply_12(a, b):\n    return a + b", "fixed": "def multiply_12(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def average_20(xs):\n    return sum(xs)", "fixed": "def average_20(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def first_29(xs):\n    return xs[1]", "fixed": "def first_29(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def average_14(xs):\n    return sum(xs)", "fixed": "def average_14(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def even_13(n):\n    return n % 2 == 1", "fixed": "def even_13(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def positive_11(n):\n    return n < 0", "fixed": "def positive_11(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def multiply_14(a, b):\n    return a + b", "fixed": "def multiply_14(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def add_15(a, b):\n    return a - b", "fixed": "def add_15(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def square_4(n):\n    return n * 2", "fixed": "def square_4(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def reverse_16(xs):\n    return xs[::1]", "fixed": "def reverse_16(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def square_36(n):\n    return n * 2", "fixed": "def square_36(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def odd_1(n):\n    return n % 2 == 0", "fixed": "def odd_1(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def factorial_19(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_19(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def factorial_28(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_28(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def factorial_2(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_2(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def first_23(xs):\n    return xs[1]", "fixed": "def first_23(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def maximum_13(a, b):\n    return a if a < b else b", "fixed": "def maximum_13(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def reverse_20(xs):\n    return xs[::1]", "fixed": "def reverse_20(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def positive_5(n):\n    return n < 0", "fixed": "def positive_5(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def last_33(xs):\n    return xs[0]", "fixed": "def last_33(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def maximum_6(a, b):\n    return a if a < b else b", "fixed": "def maximum_6(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def maximum_36(a, b):\n    return a if a < b else b", "fixed": "def maximum_36(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def empty_7(xs):\n    return len(xs) > 0", "fixed": "def empty_7(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def positive_39(n):\n    return n < 0", "fixed": "def positive_39(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def empty_12(xs):\n    return len(xs) > 0", "fixed": "def empty_12(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def sum_range_26(n):\n    return sum(range(n))", "fixed": "def sum_range_26(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def reverse_10(xs):\n    return xs[::1]", "fixed": "def reverse_10(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def minimum_36(a, b):\n    return a if a > b else b", "fixed": "def minimum_36(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def factorial_22(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_22(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def empty_19(xs):\n    return len(xs) > 0", "fixed": "def empty_19(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def minimum_31(a, b):\n    return a if a > b else b", "fixed": "def minimum_31(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def average(xs):\n    return sum(xs)", "fixed": "def average(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def factorial_26(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_26(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def first_8(xs):\n    return xs[1]", "fixed": "def first_8(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def positive_12(n):\n    return n < 0", "fixed": "def positive_12(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def odd_18(n):\n    return n % 2 == 0", "fixed": "def odd_18(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def maximum_14(a, b):\n    return a if a < b else b", "fixed": "def maximum_14(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def maximum_29(a, b):\n    return a if a < b else b", "fixed": "def maximum_29(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def contains_10(xs, n):\n    return n not in xs", "fixed": "def contains_10(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def last_27(xs):\n    return xs[0]", "fixed": "def last_27(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def first_24(xs):\n    return xs[1]", "fixed": "def first_24(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def first_19(xs):\n    return xs[1]", "fixed": "def first_19(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def minimum_27(a, b):\n    return a if a > b else b", "fixed": "def minimum_27(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def sum_range_14(n):\n    return sum(range(n))", "fixed": "def sum_range_14(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def sum_range_19(n):\n    return sum(range(n))", "fixed": "def sum_range_19(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def minimum_1(a, b):\n    return a if a > b else b", "fixed": "def minimum_1(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def sum_range_28(n):\n    return sum(range(n))", "fixed": "def sum_range_28(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def sum_range_13(n):\n    return sum(range(n))", "fixed": "def sum_range_13(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def maximum_23(a, b):\n    return a if a < b else b", "fixed": "def maximum_23(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def minimum_16(a, b):\n    return a if a > b else b", "fixed": "def minimum_16(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def square_22(n):\n    return n * 2", "fixed": "def square_22(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def first_34(xs):\n    return xs[1]", "fixed": "def first_34(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def odd_38(n):\n    return n % 2 == 0", "fixed": "def odd_38(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def square_21(n):\n    return n * 2", "fixed": "def square_21(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def square_8(n):\n    return n * 2", "fixed": "def square_8(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def first_25(xs):\n    return xs[1]", "fixed": "def first_25(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def reverse_29(xs):\n    return xs[::1]", "fixed": "def reverse_29(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def first_5(xs):\n    return xs[1]", "fixed": "def first_5(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def positive_29(n):\n    return n < 0", "fixed": "def positive_29(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def reverse_18(xs):\n    return xs[::1]", "fixed": "def reverse_18(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def maximum_38(a, b):\n    return a if a < b else b", "fixed": "def maximum_38(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def positive_14(n):\n    return n < 0", "fixed": "def positive_14(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def positive_28(n):\n    return n < 0", "fixed": "def positive_28(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def add_1(a, b):\n    return a - b", "fixed": "def add_1(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def odd_35(n):\n    return n % 2 == 0", "fixed": "def odd_35(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def empty(xs):\n    return len(xs) > 0", "fixed": "def empty(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def sum_range_11(n):\n    return sum(range(n))", "fixed": "def sum_range_11(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def maximum_8(a, b):\n    return a if a < b else b", "fixed": "def maximum_8(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def maximum_22(a, b):\n    return a if a < b else b", "fixed": "def maximum_22(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def factorial_4(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_4(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def factorial_37(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_37(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def positive_27(n):\n    return n < 0", "fixed": "def positive_27(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def contains(xs, n):\n    return n not in xs", "fixed": "def contains(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def first_33(xs):\n    return xs[1]", "fixed": "def first_33(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def multiply_15(a, b):\n    return a + b", "fixed": "def multiply_15(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def even_2(n):\n    return n % 2 == 1", "fixed": "def even_2(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def minimum_34(a, b):\n    return a if a > b else b", "fixed": "def minimum_34(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def positive_3(n):\n    return n < 0", "fixed": "def positive_3(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def minimum_19(a, b):\n    return a if a > b else b", "fixed": "def minimum_19(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def average_30(xs):\n    return sum(xs)", "fixed": "def average_30(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def first_13(xs):\n    return xs[1]", "fixed": "def first_13(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def positive_38(n):\n    return n < 0", "fixed": "def positive_38(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def odd_27(n):\n    return n % 2 == 0", "fixed": "def odd_27(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def maximum_9(a, b):\n    return a if a < b else b", "fixed": "def maximum_9(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def maximum_18(a, b):\n    return a if a < b else b", "fixed": "def maximum_18(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def contains_13(xs, n):\n    return n not in xs", "fixed": "def contains_13(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def minimum_9(a, b):\n    return a if a > b else b", "fixed": "def minimum_9(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def factorial_20(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_20(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def minimum_6(a, b):\n    return a if a > b else b", "fixed": "def minimum_6(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def multiply_19(a, b):\n    return a + b", "fixed": "def multiply_19(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def square_2(n):\n    return n * 2", "fixed": "def square_2(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def maximum_11(a, b):\n    return a if a < b else b", "fixed": "def maximum_11(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def square_3(n):\n    return n * 2", "fixed": "def square_3(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def positive_23(n):\n    return n < 0", "fixed": "def positive_23(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def first(xs):\n    return xs[1]", "fixed": "def first(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def multiply_26(a, b):\n    return a + b", "fixed": "def multiply_26(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def maximum_24(a, b):\n    return a if a < b else b", "fixed": "def maximum_24(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def contains_6(xs, n):\n    return n not in xs", "fixed": "def contains_6(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def average_26(xs):\n    return sum(xs)", "fixed": "def average_26(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def sum_range_1(n):\n    return sum(range(n))", "fixed": "def sum_range_1(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def odd_20(n):\n    return n % 2 == 0", "fixed": "def odd_20(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def minimum_29(a, b):\n    return a if a > b else b", "fixed": "def minimum_29(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def contains_32(xs, n):\n    return n not in xs", "fixed": "def contains_32(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def positive_17(n):\n    return n < 0", "fixed": "def positive_17(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def empty_6(xs):\n    return len(xs) > 0", "fixed": "def empty_6(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def odd_4(n):\n    return n % 2 == 0", "fixed": "def odd_4(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def maximum_19(a, b):\n    return a if a < b else b", "fixed": "def maximum_19(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def add_11(a, b):\n    return a - b", "fixed": "def add_11(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def positive(n):\n    return n < 0", "fixed": "def positive(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def reverse(xs):\n    return xs[::1]", "fixed": "def reverse(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def add_31(a, b):\n    return a - b", "fixed": "def add_31(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def odd_37(n):\n    return n % 2 == 0", "fixed": "def odd_37(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def contains_24(xs, n):\n    return n not in xs", "fixed": "def contains_24(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def positive_2(n):\n    return n < 0", "fixed": "def positive_2(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def last_31(xs):\n    return xs[0]", "fixed": "def last_31(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def first_31(xs):\n    return xs[1]", "fixed": "def first_31(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def add_24(a, b):\n    return a - b", "fixed": "def add_24(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def sum_range_39(n):\n    return sum(range(n))", "fixed": "def sum_range_39(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def odd_9(n):\n    return n % 2 == 0", "fixed": "def odd_9(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def minimum_18(a, b):\n    return a if a > b else b", "fixed": "def minimum_18(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def contains_19(xs, n):\n    return n not in xs", "fixed": "def contains_19(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def add_20(a, b):\n    return a - b", "fixed": "def add_20(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def empty_28(xs):\n    return len(xs) > 0", "fixed": "def empty_28(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def even_32(n):\n    return n % 2 == 1", "fixed": "def even_32(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def square_23(n):\n    return n * 2", "fixed": "def square_23(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def reverse_39(xs):\n    return xs[::1]", "fixed": "def reverse_39(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def factorial_1(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_1(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def reverse_34(xs):\n    return xs[::1]", "fixed": "def reverse_34(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def average_23(xs):\n    return sum(xs)", "fixed": "def average_23(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def multiply_28(a, b):\n    return a + b", "fixed": "def multiply_28(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def even_5(n):\n    return n % 2 == 1", "fixed": "def even_5(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def square_34(n):\n    return n * 2", "fixed": "def square_34(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def odd_6(n):\n    return n % 2 == 0", "fixed": "def odd_6(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def multiply_18(a, b):\n    return a + b", "fixed": "def multiply_18(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def multiply_7(a, b):\n    return a + b", "fixed": "def multiply_7(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def last_5(xs):\n    return xs[0]", "fixed": "def last_5(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def multiply_21(a, b):\n    return a + b", "fixed": "def multiply_21(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def sum_range_7(n):\n    return sum(range(n))", "fixed": "def sum_range_7(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def factorial_7(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_7(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def multiply_16(a, b):\n    return a + b", "fixed": "def multiply_16(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def minimum_13(a, b):\n    return a if a > b else b", "fixed": "def minimum_13(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def average_38(xs):\n    return sum(xs)", "fixed": "def average_38(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def positive_16(n):\n    return n < 0", "fixed": "def positive_16(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def square_25(n):\n    return n * 2", "fixed": "def square_25(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def even_26(n):\n    return n % 2 == 1", "fixed": "def even_26(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def factorial_38(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_38(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def square_16(n):\n    return n * 2", "fixed": "def square_16(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def even_36(n):\n    return n % 2 == 1", "fixed": "def even_36(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def multiply_20(a, b):\n    return a + b", "fixed": "def multiply_20(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def empty_16(xs):\n    return len(xs) > 0", "fixed": "def empty_16(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def multiply(a, b):\n    return a + b", "fixed": "def multiply(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def contains_27(xs, n):\n    return n not in xs", "fixed": "def contains_27(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def even_29(n):\n    return n % 2 == 1", "fixed": "def even_29(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def empty_36(xs):\n    return len(xs) > 0", "fixed": "def empty_36(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def multiply_6(a, b):\n    return a + b", "fixed": "def multiply_6(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def last_18(xs):\n    return xs[0]", "fixed": "def last_18(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def contains_34(xs, n):\n    return n not in xs", "fixed": "def contains_34(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def sum_range_15(n):\n    return sum(range(n))", "fixed": "def sum_range_15(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def multiply_39(a, b):\n    return a + b", "fixed": "def multiply_39(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def add_12(a, b):\n    return a - b", "fixed": "def add_12(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def even_6(n):\n    return n % 2 == 1", "fixed": "def even_6(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def factorial_31(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_31(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def sum_range_10(n):\n    return sum(range(n))", "fixed": "def sum_range_10(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def minimum_10(a, b):\n    return a if a > b else b", "fixed": "def minimum_10(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def minimum_14(a, b):\n    return a if a > b else b", "fixed": "def minimum_14(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def average_5(xs):\n    return sum(xs)", "fixed": "def average_5(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def average_21(xs):\n    return sum(xs)", "fixed": "def average_21(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def square_15(n):\n    return n * 2", "fixed": "def square_15(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def even_39(n):\n    return n % 2 == 1", "fixed": "def even_39(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def even_10(n):\n    return n % 2 == 1", "fixed": "def even_10(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def average_15(xs):\n    return sum(xs)", "fixed": "def average_15(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def reverse_21(xs):\n    return xs[::1]", "fixed": "def reverse_21(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def average_6(xs):\n    return sum(xs)", "fixed": "def average_6(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def square_27(n):\n    return n * 2", "fixed": "def square_27(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def sum_range_9(n):\n    return sum(range(n))", "fixed": "def sum_range_9(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def empty_15(xs):\n    return len(xs) > 0", "fixed": "def empty_15(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def last_17(xs):\n    return xs[0]", "fixed": "def last_17(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def even_8(n):\n    return n % 2 == 1", "fixed": "def even_8(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def multiply_11(a, b):\n    return a + b", "fixed": "def multiply_11(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def multiply_1(a, b):\n    return a + b", "fixed": "def multiply_1(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def first_4(xs):\n    return xs[1]", "fixed": "def first_4(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def odd_2(n):\n    return n % 2 == 0", "fixed": "def odd_2(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def maximum_15(a, b):\n    return a if a < b else b", "fixed": "def maximum_15(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def maximum_12(a, b):\n    return a if a < b else b", "fixed": "def maximum_12(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def empty_21(xs):\n    return len(xs) > 0", "fixed": "def empty_21(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def empty_35(xs):\n    return len(xs) > 0", "fixed": "def empty_35(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def square_17(n):\n    return n * 2", "fixed": "def square_17(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def last_29(xs):\n    return xs[0]", "fixed": "def last_29(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def positive_9(n):\n    return n < 0", "fixed": "def positive_9(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def minimum_22(a, b):\n    return a if a > b else b", "fixed": "def minimum_22(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def contains_9(xs, n):\n    return n not in xs", "fixed": "def contains_9(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def first_1(xs):\n    return xs[1]", "fixed": "def first_1(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def odd_23(n):\n    return n % 2 == 0", "fixed": "def odd_23(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def multiply_31(a, b):\n    return a + b", "fixed": "def multiply_31(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def reverse_9(xs):\n    return xs[::1]", "fixed": "def reverse_9(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def factorial_16(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_16(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def factorial_34(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_34(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def multiply_35(a, b):\n    return a + b", "fixed": "def multiply_35(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def average_27(xs):\n    return sum(xs)", "fixed": "def average_27(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def average_18(xs):\n    return sum(xs)", "fixed": "def average_18(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def add_2(a, b):\n    return a - b", "fixed": "def add_2(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def factorial_36(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_36(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def positive_36(n):\n    return n < 0", "fixed": "def positive_36(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def empty_14(xs):\n    return len(xs) > 0", "fixed": "def empty_14(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def multiply_37(a, b):\n    return a + b", "fixed": "def multiply_37(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def empty_4(xs):\n    return len(xs) > 0", "fixed": "def empty_4(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def maximum_3(a, b):\n    return a if a < b else b", "fixed": "def maximum_3(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def maximum_21(a, b):\n    return a if a < b else b", "fixed": "def maximum_21(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def factorial_10(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_10(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def reverse_13(xs):\n    return xs[::1]", "fixed": "def reverse_13(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def empty_39(xs):\n    return len(xs) > 0", "fixed": "def empty_39(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def last_35(xs):\n    return xs[0]", "fixed": "def last_35(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def first_6(xs):\n    return xs[1]", "fixed": "def first_6(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def sum_range_21(n):\n    return sum(range(n))", "fixed": "def sum_range_21(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def even_31(n):\n    return n % 2 == 1", "fixed": "def even_31(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def odd_24(n):\n    return n % 2 == 0", "fixed": "def odd_24(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def empty_20(xs):\n    return len(xs) > 0", "fixed": "def empty_20(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def positive_24(n):\n    return n < 0", "fixed": "def positive_24(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def contains_2(xs, n):\n    return n not in xs", "fixed": "def contains_2(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def minimum_23(a, b):\n    return a if a > b else b", "fixed": "def minimum_23(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def even_4(n):\n    return n % 2 == 1", "fixed": "def even_4(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def average_7(xs):\n    return sum(xs)", "fixed": "def average_7(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def add_5(a, b):\n    return a - b", "fixed": "def add_5(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def last_22(xs):\n    return xs[0]", "fixed": "def last_22(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def minimum_33(a, b):\n    return a if a > b else b", "fixed": "def minimum_33(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def contains_17(xs, n):\n    return n not in xs", "fixed": "def contains_17(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def add_26(a, b):\n    return a - b", "fixed": "def add_26(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def positive_21(n):\n    return n < 0", "fixed": "def positive_21(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def positive_34(n):\n    return n < 0", "fixed": "def positive_34(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def empty_34(xs):\n    return len(xs) > 0", "fixed": "def empty_34(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def maximum_30(a, b):\n    return a if a < b else b", "fixed": "def maximum_30(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def square_6(n):\n    return n * 2", "fixed": "def square_6(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def contains_38(xs, n):\n    return n not in xs", "fixed": "def contains_38(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def first_15(xs):\n    return xs[1]", "fixed": "def first_15(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def last_4(xs):\n    return xs[0]", "fixed": "def last_4(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def average_37(xs):\n    return sum(xs)", "fixed": "def average_37(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def odd_3(n):\n    return n % 2 == 0", "fixed": "def odd_3(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def minimum_17(a, b):\n    return a if a > b else b", "fixed": "def minimum_17(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def empty_10(xs):\n    return len(xs) > 0", "fixed": "def empty_10(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def sum_range_24(n):\n    return sum(range(n))", "fixed": "def sum_range_24(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def add_32(a, b):\n    return a - b", "fixed": "def add_32(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def odd_32(n):\n    return n % 2 == 0", "fixed": "def odd_32(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def contains_20(xs, n):\n    return n not in xs", "fixed": "def contains_20(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def factorial_35(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_35(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def multiply_17(a, b):\n    return a + b", "fixed": "def multiply_17(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def odd_8(n):\n    return n % 2 == 0", "fixed": "def odd_8(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def add_14(a, b):\n    return a - b", "fixed": "def add_14(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def sum_range_3(n):\n    return sum(range(n))", "fixed": "def sum_range_3(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def sum_range(n):\n    return sum(range(n))", "fixed": "def sum_range(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def maximum_10(a, b):\n    return a if a < b else b", "fixed": "def maximum_10(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def positive_7(n):\n    return n < 0", "fixed": "def positive_7(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def first_3(xs):\n    return xs[1]", "fixed": "def first_3(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def factorial_29(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_29(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def first_2(xs):\n    return xs[1]", "fixed": "def first_2(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def first_37(xs):\n    return xs[1]", "fixed": "def first_37(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def multiply_13(a, b):\n    return a + b", "fixed": "def multiply_13(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def multiply_25(a, b):\n    return a + b", "fixed": "def multiply_25(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def square_9(n):\n    return n * 2", "fixed": "def square_9(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def reverse_25(xs):\n    return xs[::1]", "fixed": "def reverse_25(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def square_35(n):\n    return n * 2", "fixed": "def square_35(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def contains_1(xs, n):\n    return n not in xs", "fixed": "def contains_1(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def factorial_9(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_9(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def contains_8(xs, n):\n    return n not in xs", "fixed": "def contains_8(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def reverse_5(xs):\n    return xs[::1]", "fixed": "def reverse_5(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def maximum_26(a, b):\n    return a if a < b else b", "fixed": "def maximum_26(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def factorial(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def contains_36(xs, n):\n    return n not in xs", "fixed": "def contains_36(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def empty_27(xs):\n    return len(xs) > 0", "fixed": "def empty_27(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def square_32(n):\n    return n * 2", "fixed": "def square_32(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def add_38(a, b):\n    return a - b", "fixed": "def add_38(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def positive_8(n):\n    return n < 0", "fixed": "def positive_8(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def contains_4(xs, n):\n    return n not in xs", "fixed": "def contains_4(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def last_2(xs):\n    return xs[0]", "fixed": "def last_2(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def empty_8(xs):\n    return len(xs) > 0", "fixed": "def empty_8(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def reverse_31(xs):\n    return xs[::1]", "fixed": "def reverse_31(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def sum_range_38(n):\n    return sum(range(n))", "fixed": "def sum_range_38(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def last_21(xs):\n    return xs[0]", "fixed": "def last_21(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def maximum_31(a, b):\n    return a if a < b else b", "fixed": "def maximum_31(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def odd_19(n):\n    return n % 2 == 0", "fixed": "def odd_19(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def minimum_7(a, b):\n    return a if a > b else b", "fixed": "def minimum_7(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def multiply_30(a, b):\n    return a + b", "fixed": "def multiply_30(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def maximum_25(a, b):\n    return a if a < b else b", "fixed": "def maximum_25(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def last_28(xs):\n    return xs[0]", "fixed": "def last_28(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def reverse_22(xs):\n    return xs[::1]", "fixed": "def reverse_22(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def positive_32(n):\n    return n < 0", "fixed": "def positive_32(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def empty_24(xs):\n    return len(xs) > 0", "fixed": "def empty_24(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def factorial_3(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_3(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def contains_18(xs, n):\n    return n not in xs", "fixed": "def contains_18(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def reverse_1(xs):\n    return xs[::1]", "fixed": "def reverse_1(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def square_5(n):\n    return n * 2", "fixed": "def square_5(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def contains_30(xs, n):\n    return n not in xs", "fixed": "def contains_30(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def average_39(xs):\n    return sum(xs)", "fixed": "def average_39(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def average_9(xs):\n    return sum(xs)", "fixed": "def average_9(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def contains_12(xs, n):\n    return n not in xs", "fixed": "def contains_12(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def last_37(xs):\n    return xs[0]", "fixed": "def last_37(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def factorial_11(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_11(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def odd_17(n):\n    return n % 2 == 0", "fixed": "def odd_17(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def square_39(n):\n    return n * 2", "fixed": "def square_39(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def add_30(a, b):\n    return a - b", "fixed": "def add_30(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def add_34(a, b):\n    return a - b", "fixed": "def add_34(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def sum_range_25(n):\n    return sum(range(n))", "fixed": "def sum_range_25(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def average_10(xs):\n    return sum(xs)", "fixed": "def average_10(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def average_11(xs):\n    return sum(xs)", "fixed": "def average_11(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def first_36(xs):\n    return xs[1]", "fixed": "def first_36(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def last_32(xs):\n    return xs[0]", "fixed": "def last_32(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def sum_range_8(n):\n    return sum(range(n))", "fixed": "def sum_range_8(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def last_13(xs):\n    return xs[0]", "fixed": "def last_13(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def positive_25(n):\n    return n < 0", "fixed": "def positive_25(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def empty_1(xs):\n    return len(xs) > 0", "fixed": "def empty_1(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def first_21(xs):\n    return xs[1]", "fixed": "def first_21(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def contains_3(xs, n):\n    return n not in xs", "fixed": "def contains_3(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def contains_29(xs, n):\n    return n not in xs", "fixed": "def contains_29(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def multiply_8(a, b):\n    return a + b", "fixed": "def multiply_8(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def multiply_38(a, b):\n    return a + b", "fixed": "def multiply_38(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def odd_29(n):\n    return n % 2 == 0", "fixed": "def odd_29(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def odd_12(n):\n    return n % 2 == 0", "fixed": "def odd_12(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def average_34(xs):\n    return sum(xs)", "fixed": "def average_34(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def odd_31(n):\n    return n % 2 == 0", "fixed": "def odd_31(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def first_26(xs):\n    return xs[1]", "fixed": "def first_26(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def square_29(n):\n    return n * 2", "fixed": "def square_29(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def multiply_5(a, b):\n    return a + b", "fixed": "def multiply_5(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def positive_31(n):\n    return n < 0", "fixed": "def positive_31(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def even_17(n):\n    return n % 2 == 1", "fixed": "def even_17(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def minimum_2(a, b):\n    return a if a > b else b", "fixed": "def minimum_2(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def even_16(n):\n    return n % 2 == 1", "fixed": "def even_16(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def sum_range_27(n):\n    return sum(range(n))", "fixed": "def sum_range_27(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def odd_34(n):\n    return n % 2 == 0", "fixed": "def odd_34(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def multiply_10(a, b):\n    return a + b", "fixed": "def multiply_10(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def minimum_3(a, b):\n    return a if a > b else b", "fixed": "def minimum_3(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def average_28(xs):\n    return sum(xs)", "fixed": "def average_28(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def even_34(n):\n    return n % 2 == 1", "fixed": "def even_34(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def sum_range_17(n):\n    return sum(range(n))", "fixed": "def sum_range_17(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def minimum_12(a, b):\n    return a if a > b else b", "fixed": "def minimum_12(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def even_24(n):\n    return n % 2 == 1", "fixed": "def even_24(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def odd_36(n):\n    return n % 2 == 0", "fixed": "def odd_36(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def add_28(a, b):\n    return a - b", "fixed": "def add_28(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def square_33(n):\n    return n * 2", "fixed": "def square_33(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def reverse_7(xs):\n    return xs[::1]", "fixed": "def reverse_7(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def average_36(xs):\n    return sum(xs)", "fixed": "def average_36(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def empty_26(xs):\n    return len(xs) > 0", "fixed": "def empty_26(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def reverse_15(xs):\n    return xs[::1]", "fixed": "def reverse_15(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def sum_range_33(n):\n    return sum(range(n))", "fixed": "def sum_range_33(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def odd_33(n):\n    return n % 2 == 0", "fixed": "def odd_33(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def even_14(n):\n    return n % 2 == 1", "fixed": "def even_14(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def add_3(a, b):\n    return a - b", "fixed": "def add_3(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def add_19(a, b):\n    return a - b", "fixed": "def add_19(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def reverse_6(xs):\n    return xs[::1]", "fixed": "def reverse_6(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def add_13(a, b):\n    return a - b", "fixed": "def add_13(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def square_24(n):\n    return n * 2", "fixed": "def square_24(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def average_8(xs):\n    return sum(xs)", "fixed": "def average_8(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def average_2(xs):\n    return sum(xs)", "fixed": "def average_2(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def last_23(xs):\n    return xs[0]", "fixed": "def last_23(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def average_24(xs):\n    return sum(xs)", "fixed": "def average_24(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def last_1(xs):\n    return xs[0]", "fixed": "def last_1(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def maximum_16(a, b):\n    return a if a < b else b", "fixed": "def maximum_16(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def even_33(n):\n    return n % 2 == 1", "fixed": "def even_33(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def sum_range_6(n):\n    return sum(range(n))", "fixed": "def sum_range_6(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def sum_range_31(n):\n    return sum(range(n))", "fixed": "def sum_range_31(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def reverse_36(xs):\n    return xs[::1]", "fixed": "def reverse_36(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def add_10(a, b):\n    return a - b", "fixed": "def add_10(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def maximum_20(a, b):\n    return a if a < b else b", "fixed": "def maximum_20(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def contains_5(xs, n):\n    return n not in xs", "fixed": "def contains_5(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def last(xs):\n    return xs[0]", "fixed": "def last(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def add_27(a, b):\n    return a - b", "fixed": "def add_27(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def first_7(xs):\n    return xs[1]", "fixed": "def first_7(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def empty_29(xs):\n    return len(xs) > 0", "fixed": "def empty_29(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def square_30(n):\n    return n * 2", "fixed": "def square_30(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def sum_range_4(n):\n    return sum(range(n))", "fixed": "def sum_range_4(n):\n    return sum(range(n + 1))", "family": "sum_range"}
+{"buggy": "def odd_30(n):\n    return n % 2 == 0", "fixed": "def odd_30(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def minimum_32(a, b):\n    return a if a > b else b", "fixed": "def minimum_32(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def add_7(a, b):\n    return a - b", "fixed": "def add_7(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def last_19(xs):\n    return xs[0]", "fixed": "def last_19(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def add_29(a, b):\n    return a - b", "fixed": "def add_29(a, b):\n    return a + b", "family": "add"}
+{"buggy": "def last_14(xs):\n    return xs[0]", "fixed": "def last_14(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def average_33(xs):\n    return sum(xs)", "fixed": "def average_33(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def minimum_24(a, b):\n    return a if a > b else b", "fixed": "def minimum_24(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def even_20(n):\n    return n % 2 == 1", "fixed": "def even_20(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def first_39(xs):\n    return xs[1]", "fixed": "def first_39(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def average_13(xs):\n    return sum(xs)", "fixed": "def average_13(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def minimum_28(a, b):\n    return a if a > b else b", "fixed": "def minimum_28(a, b):\n    return a if a < b else b", "family": "minimum"}
+{"buggy": "def average_29(xs):\n    return sum(xs)", "fixed": "def average_29(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def reverse_3(xs):\n    return xs[::1]", "fixed": "def reverse_3(xs):\n    return xs[::-1]", "family": "reverse"}
+{"buggy": "def factorial_6(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_6(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def maximum_4(a, b):\n    return a if a < b else b", "fixed": "def maximum_4(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def average_3(xs):\n    return sum(xs)", "fixed": "def average_3(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def square_19(n):\n    return n * 2", "fixed": "def square_19(n):\n    return n ** 2", "family": "square"}
+{"buggy": "def even_25(n):\n    return n % 2 == 1", "fixed": "def even_25(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def multiply_29(a, b):\n    return a + b", "fixed": "def multiply_29(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def average_32(xs):\n    return sum(xs)", "fixed": "def average_32(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def even_3(n):\n    return n % 2 == 1", "fixed": "def even_3(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def contains_14(xs, n):\n    return n not in xs", "fixed": "def contains_14(xs, n):\n    return n in xs", "family": "contains"}
+{"buggy": "def factorial_27(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_27(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def average_16(xs):\n    return sum(xs)", "fixed": "def average_16(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def positive_37(n):\n    return n < 0", "fixed": "def positive_37(n):\n    return n > 0", "family": "positive"}
+{"buggy": "def even_38(n):\n    return n % 2 == 1", "fixed": "def even_38(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def even_23(n):\n    return n % 2 == 1", "fixed": "def even_23(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def last_15(xs):\n    return xs[0]", "fixed": "def last_15(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def factorial_30(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_30(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def factorial_32(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_32(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def multiply_32(a, b):\n    return a + b", "fixed": "def multiply_32(a, b):\n    return a * b", "family": "multiply"}
+{"buggy": "def average_4(xs):\n    return sum(xs)", "fixed": "def average_4(xs):\n    return sum(xs) / len(xs)", "family": "average"}
+{"buggy": "def last_9(xs):\n    return xs[0]", "fixed": "def last_9(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def empty_38(xs):\n    return len(xs) > 0", "fixed": "def empty_38(xs):\n    return len(xs) == 0", "family": "empty"}
+{"buggy": "def last_24(xs):\n    return xs[0]", "fixed": "def last_24(xs):\n    return xs[-1]", "family": "last"}
+{"buggy": "def first_22(xs):\n    return xs[1]", "fixed": "def first_22(xs):\n    return xs[0]", "family": "first"}
+{"buggy": "def even_28(n):\n    return n % 2 == 1", "fixed": "def even_28(n):\n    return n % 2 == 0", "family": "even"}
+{"buggy": "def odd_10(n):\n    return n % 2 == 0", "fixed": "def odd_10(n):\n    return n % 2 == 1", "family": "odd"}
+{"buggy": "def maximum_1(a, b):\n    return a if a < b else b", "fixed": "def maximum_1(a, b):\n    return a if a > b else b", "family": "maximum"}
+{"buggy": "def factorial_25(n):\n    r = 1\n    for i in range(1, n):\n        r *= i\n    return r", "fixed": "def factorial_25(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r", "family": "factorial"}
+{"buggy": "def last_34(xs):\n    return xs[0]", "fixed": "def last_34(xs):\n    return xs[-1]", "family": "last"}
